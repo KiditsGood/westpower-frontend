@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WestPower Test</title>
+</head>
+<body>
+<header class="header">
+    <a href="" class="header__item">Главная</a>
+    <a href="" class="header__item">личный кабинет</a>
+    <a href="" class="header__item">профиль и интересы</a>
+</header>
+<main class="wrapper">
+    <nav class="nav">
+        <a href="" class="nav__item">Бонусы и предложения</a>
+        <a href="" class="nav__item">профиль и интересы</a>
+        <a href="" class="nav__item">мои покупки</a>
+        <a href="" class="nav__item">Избранное</a>
+        <a href="" class="nav__item">ПЕРСОНАЛЬНЫЙ МЕНЕДЖЕР</a>
+    </nav>
+    <div class="content">
+        <div class="content--item">
+            <p class="content__main-title">профиль и интересы</p>
+            <p class="content__main-desc">Здесь вы можете изменять свой email и пароль, а также указать дополнительные номера телефонов для использован ия вашей карты и указать свои интересы</p>
+            <div class="content__inputs">
+                <div class="content__inputs-item">
+                    <p class="content__inputs-item--title email--bonus">Email</p>
+                    <input type="text" class="content__inputs-item--input" value="ivan@mail.ru">
+                    <a class="input--change save">
+                        <img src="img/save.svg" alt="" class="input--change--icon">
+                        <p class="input--change--text save">сохранить</p>
+                    </a>
+                </div>
+                <div class="content__inputs-item">
+                    <p class="content__inputs-item--title">Пароль</p>
+                    <input disabled type="password" class="content__inputs-item--input" value="passw">
+                    <a class="input--change">
+                        <img src="img/edit.svg" alt="" class="input--change--icon">
+                        <p class="input--change--text edit">изменить</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="content--item">
+            <p class="content__main-title">дополнительные контактные телефоны</p>
+            <p class="content__main-desc">Вы можете добавить до двух дополнительных номеров телефона.<br>
+                Указанные номера могут быть использованы членами вашей семьи для получения скидки, накопления баллов и покупок по вашей карте</p>
+            <div class="content__inputs">
+                <div class="content__inputs-item">
+                    <p class="content__inputs-item--title">Телефон 1</p>
+                    <input id="phone" type="tel" class="content__inputs-item--input" placeholder="+7(___)___-____">
+                    <a class="input--change save">
+                        <img src="img/save.svg" alt="" class="input--change--icon">
+                        <p class="input--change--text save">сохранить</p>
+                    </a>
+                </div>
+                <div class="content__inputs-item">
+                    <p class="content__inputs-item--title">Телефон 2</p>
+                    <input disabled id="phone2" type="tel" class="content__inputs-item--input" placeholder="+7(___)___-____">
+                    <a class="input--change edit">
+                        <img src="img/edit.svg" alt="" class="input--change--icon">
+                        <p class="input--change--text edit">изменить</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="content--item">
+            <p class="content__main-title">ПОДПИСКА НА УВЕЛИЧЕННУЮ СКИДКУ</p>
+            <p class="content__main-desc">Вы можете выбрать один магазин для предоставления увеличенной скидки. Выбор можно сделать не более 1 раза в месяц. По истечению календарного месяца скидка будет обнулена автоматически</p>
+            <div class="content__list">
+                <div class="content__list-button">
+                    <p class="list__button-text">Выберите магазин</p>
+                    <img src="img/arrow.svg" alt="" class="list__button-arrow">
+                </div>
+                <div class="collapse">
+                    <div class="content__list-shops">
+                        <div class="shops--item">
+                            <div class="shops__check">
+                                <img src="" alt="" class="shops__check-icon">
+                            </div>
+                            <img src="img/tommy.svg" alt="" class="shops__check-magazine">
+                        </div>
+                        <div class="shops--item">
+                            <div class="shops__check">
+                                <img src="" alt="" class="shops__check-icon">
+                            </div>
+                            <img src="img/ck.svg" alt="" class="shops__check-magazine">
+                        </div>
+                        <div class="shops--item">
+                            <div class="shops__check">
+                                <img src="" alt="" class="shops__check-icon">
+                            </div>
+                            <img src="img/cross.svg" alt="" class="shops__check-magazine">
+                        </div>
+                        <div class="shops--item">
+                            <div class="shops__check">
+                                <img src="" alt="" class="shops__check-icon">
+                            </div>
+                            <img src="img/matinique.svg" alt="" class="shops__check-magazine">
+                        </div>
+                        <div class="shops--item">
+                            <div class="shops__check">
+                                <img src="" alt="" class="shops__check-icon">
+                            </div>
+                            <img src="img/clarks.svg" alt="" class="shops__check-magazine">
+                        </div>
+                        <div class="shops--item">
+                            <div class="shops__check">
+                                <img src="" alt="" class="shops__check-icon">
+                            </div>
+                            <img src="img/reima.svg" alt="" class="shops__check-magazine">
+                        </div>
+                        <div class="shops--item">
+                            <div class="shops__check">
+                                <img src="" alt="" class="shops__check-icon">
+                            </div>
+                            <img src="img/markis.svg" alt="" class="shops__check-magazine">
+                        </div>
+                        <div class="shops--item">
+                            <div class="shops__check">
+                                <img src="" alt="" class="shops__check-icon">
+                            </div>
+                            <img src="img/soho.svg" alt="" class="shops__check-magazine">
+                        </div>
+                        <div class="shops--item">
+                            <div class="shops__check">
+                                <img src="" alt="" class="shops__check-icon">
+                            </div>
+                            <img src="img/mexx.svg" alt="" class="shops__check-magazine">
+                        </div>
+                        <div class="shops--item">
+                            <div class="shops__check">
+                                <img src="" alt="" class="shops__check-icon">
+                            </div>
+                            <img src="img/truman.svg" alt="" class="shops__check-magazine">
+                        </div>
+                        <div class="shops--item">
+                            <div class="shops__check">
+                                <img src="" alt="" class="shops__check-icon">
+                            </div>
+                            <img src="img/origami.svg" alt="" class="shops__check-magazine">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content--item">
+            <p class="content__main-title">ПОДПИСКА НА УВЕДОМЛЕНИЯ ОБ АКЦИЯХ</p>
+            <p class="content__main-desc">Вы можете выбрать один или несколько магазинов, по которым  вам интересно получать предложения</p>
+            <div class="content__sign">
+                <div class="content__sign-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <img src="img/tommy.svg" alt="" class="shops__check-item--image">
+                </div>
+                <div class="content__sign-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <img src="img/ck.svg" alt="" class="shops__check-item--image">
+                </div>
+                <div class="content__sign-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <img src="img/cross.svg" alt="" class="shops__check-item--image">
+                </div>
+                <div class="content__sign-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <img src="img/matinique.svg" alt="" class="shops__check-item--image">
+                </div>
+                <div class="content__sign-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <img src="img/clarks.svg" alt="" class="shops__check-item--image">
+                </div>
+                <div class="content__sign-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <img src="img/reima.svg" alt="" class="shops__check-item--image">
+                </div>
+                <div class="content__sign-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <img src="img/markis.svg" alt="" class="shops__check-item--image">
+                </div>
+                <div class="content__sign-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <img src="img/soho.svg" alt="" class="shops__check-item--image">
+                </div>
+                <div class="content__sign-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <img src="img/mexx.svg" alt="" class="shops__check-item--image">
+                </div>
+                <div class="content__sign-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <img src="img/truman.svg" alt="" class="shops__check-item--image">
+                </div>
+                <div class="content__sign-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <img src="img/origami.svg" alt="" class="shops__check-item--image">
+                </div>
+            </div>
+        </div>
+        <div class="content--item">
+            <p class="content__main-title">ЛЮБИМЫЙ БРЕНД</p>
+            <p class="content__main-desc">Расскажите нам о своих любимых брендах, а мы учтем ваш выбор при составлении индивидуальных предложений</p>
+            <div class="content__like">
+                <div class="content__like-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <p class="content__like-item--text">CALVIN KLEIN JEANS</p>
+                </div>
+                <div class="content__like-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <p class="content__like-item--text">CALVIN KLEIN JEANS</p>
+                </div>
+                <div class="content__like-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <p class="content__like-item--text">CALVIN KLEIN JEANS</p>
+                </div>
+                <div class="content__like-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <p class="content__like-item--text">UNITED COLORS OF BENETTON</p>
+                </div>
+                <div class="content__like-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <p class="content__like-item--text">UNITED COLORS OF BENETTON</p>
+                </div>
+                <div class="content__like-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <p class="content__like-item--text">UNITED COLORS OF BENETTON</p>
+                </div>
+                <div class="content__like-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <p class="content__like-item--text">REIMA</p>
+                </div>
+                <div class="content__like-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <p class="content__like-item--text">REIMA</p>
+                </div>
+                <div class="content__like-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <p class="content__like-item--text">REIMA</p>
+                </div>
+                <div class="content__like-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <p class="content__like-item--text">STRELLSON</p>
+                </div>
+                <div class="content__like-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <p class="content__like-item--text">STRELLSON</p>
+                </div>
+                <div class="content__like-item">
+                    <div class="shops__check">
+                        <img src="" alt="" class="shops__check-icon">
+                    </div>
+                    <p class="content__like-item--text">STRELLSON</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="js/main.js"></script>
+<script src="js/phoneMask.js"></script>
+</body>
+</html>
