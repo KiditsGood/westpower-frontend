@@ -7,7 +7,7 @@
     text-decoration: none;
     border: none;
     outline: none;
-    color: #3C3B3B;
+    color: black;
 }
 a{
     transition: 0.2s;
@@ -138,6 +138,9 @@ a{
     font-weight: 300;
     line-height: 24px;
     width: 290px;
+}
+.content__inputs-item--input:disabled{
+    background: #F5F5F5;
 }
 .input--change{
     display: flex;
@@ -285,4 +288,138 @@ a{
 }
 .collapse:not(.collapse_show){
     display: none;
+}
+.content__news{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background: #F8F8FA;
+    border-radius: 5px;
+}
+.content__news-text{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: black;
+}
+.content__news-socials{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.content__news-socials--item{
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 500px;
+}
+.vk{
+    background: rgba(0, 119, 255, 1);
+}
+.telegram{
+    background: rgba(39, 166, 229, 1);
+}
+.vk:hover{
+    background: none;
+    outline: 1px solid rgba(0, 119, 255, 1);
+}
+.vk:hover > .vk--icon > path{
+    fill: rgba(0, 119, 255, 1);
+}
+.telegram:hover{
+    background: none;
+    outline: 1px solid rgba(39, 166, 229, 1);
+}
+.telegram:hover> .telegram--icon > path{
+    fill: rgba(39, 166, 229, 1);
+}
+@media screen and (min-width: 769px) and (max-width: 1440px){
+    .header, .nav{
+        display: none;
+    }
+    .wrapper{
+        max-width: 1050px;
+        padding: 0 30px;
+    }
+    .content__sign{
+        justify-content: center;
+    }
+    .content__like{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header, .nav{
+        display: none;
+    }
+    .wrapper{
+        max-width: 700px;
+        padding: 0 15px;
+    }
+    .content__sign{
+        justify-content: center;
+        gap: 15px;
+    }
+    .content__like{
+        justify-content: center;
+        gap: 15px;
+    }
+    .content__inputs{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+    .content--item{
+        gap: 15px;
+        padding-bottom: 30px;
+    }
+    .content__main-title{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .content__main-desc{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .content__inputs-item--input{
+        width: calc(100vw - 70px);
+    }
+    .content__sign-item{
+        width: calc(100vw - 60px);
+        padding: 0 15px;
+        height: 80px;
+    }
+    .content__like-item{
+        padding: 0 15px;
+        height: 80px;
+        width: calc(100vw - 60px);
+    }
+    .content__like-item--text{
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .shops__check{
+        width: 15px;
+        height: 15px;
+    }
+    .content__news-text{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .content__news-socials--item{
+        width: 30px;
+        height: 30px;
+    }
+    .vk--icon, .telegram--icon{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 360px){
+    .shops__check-item--image{
+        width: 40%;
+    }
 }
